@@ -1,7 +1,7 @@
 # Reflection
 
-Student Name:  name
-Sudent Email:  email
+Student Name:  Solomon Burt
+Sudent Email:  sdburt@syr.edu
 
 ## Instructions
 
@@ -23,3 +23,4 @@ Examples:
 
 `--- Reflection Below This Line ---`
 
+Pandas is very flexible for building data pipelines within python (as compared to other modules like Nums.py). Using it to chain operations like data cleaning is almost intuitive due to how much pandas simplifies its tasks. However due to this simpliciity/simplifying process, I struggle to create the most optimal (least memory-consuming) code, often wasting extra time and memory as compared to the professor's solutions.
