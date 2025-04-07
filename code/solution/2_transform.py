@@ -51,5 +51,5 @@ annual_salary_adjusted_by_location_and_age.to_csv('cache/annual_salary_adjusted_
 st.write(annual_salary_adjusted_by_location_and_education)
 
 
-
+bruh
 
