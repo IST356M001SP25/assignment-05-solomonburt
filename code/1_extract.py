@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 import pandaslib as pl
-  
+
 #TODO Write your extraction code here
 
 def process_survey_data(survey_url, cache_dir="cache/"):
@@ -12,7 +12,7 @@ def process_survey_data(survey_url, cache_dir="cache/"):
     """
 
     survey_data = pd.read_csv(survey_url)
-    survey_data['year'] = survey_data['Timestamp'].str.extract(r'(\d{4})')  # Extract year using regex
+    survey_data['year'] = survey_data['Timestamp'].apply(pl.extract_year_mdy)  # Extract year using pandaslib function
 
     survey_data.to_csv(f'{cache_dir}survey_data.csv', index=False)
 
